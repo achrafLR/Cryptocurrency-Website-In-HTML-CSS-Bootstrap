@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: Tahoma, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(14, 0, 118);
+    background: radial-gradient(circle, rgba(14, 0, 118, 1) 12%, rgba(0, 11, 118, 1) 56%, rgba(0, 10, 118, 1) 87%);
+}
+
+
+/*Start navbar*/
+
+nav ul li a {
+    color: #fff !important;
+}
+
+
+/*End navbar*/
+
+.logo {
+    width: 100px;
+}
+
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature ul li a {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+button.btn.btn-warning.btn-rounded {
+    border-radius: 27px;
+    padding: 10px 29px;
+}
+
+.font {
+    font-weight: 500;
+}
+
+.card {
+    cursor: pointer;
+}
